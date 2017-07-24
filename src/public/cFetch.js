@@ -119,7 +119,7 @@ function cFetch (url, options) {
     .then(res => {
       // eslint-disable-next-line
       if (parseInt(res.code) !== 200 && res.msg !== '') {
-        check.toast(res.msg)
+        alert(res.msg)
         return Promise.reject(new Error(res.code + ' ' + res.msg))
       }
       return res.result
