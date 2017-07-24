@@ -5,7 +5,7 @@ import {
   Route,
   Redirect
 } from 'react-router-dom'
-import '@/index.css';
+import '@/index.css'
 import Login from '@/components/Login'
 import App from '@/components/App'
 import registerServiceWorker from '@/registerServiceWorker';
@@ -13,6 +13,7 @@ import { createStore } from 'redux'
 import { Provider } from 'react-redux'
 import appReducers from './reducers'
 import { Value } from '@/public'
+import '@/style.css'
 
 const store = createStore(appReducers)
 

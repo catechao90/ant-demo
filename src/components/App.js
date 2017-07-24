@@ -33,10 +33,12 @@ class App extends React.Component {
           <div style={{ background: '#fff', padding: 24, minHeight: 280 }}>
             <Link to="/index">index</Link>
             <Route path="/index" component={Index}/>
+            <img src="images/test.png" width="100" alt=""/>
+            <span className="icon-hint-08"></span>
           </div>
         </Content>
         <Footer style={{ textAlign: 'center' }}>
-        Ant Design ©2016 Created by Ant UED
+        Ant Design 2016 Created by Ant UED
         </Footer>
       </Layout>
     );

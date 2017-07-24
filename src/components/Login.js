@@ -2,7 +2,7 @@ import React from 'react'
 import './Login.css'
 import { Form, Icon, Input, Button, Checkbox } from 'antd'
 import { Value } from '@/public'
-import { Redirect } from 'react-router-dom'
+// import { Redirect } from 'react-router-dom'
 const FormItem = Form.Item;
 
 class NormalLoginForm extends React.Component {
@@ -25,9 +25,7 @@ class NormalLoginForm extends React.Component {
     const { redirectToReferrer } = this.state
 
     if (redirectToReferrer) {
-      return (
-        <Redirect to="/"/>
-      )
+      window.location.href="/";
     }
 
     return (
