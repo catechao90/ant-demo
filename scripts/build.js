@@ -48,6 +48,7 @@ measureFileSizesBeforeBuild(paths.appBuild)
     fs.emptyDirSync(paths.appBuild);
     // Merge with the public folder
     copyPublicFolder();
+    fs.removeSync(paths.appBuild+"/data")
     // Start the webpack build
     return build(previousFileSizes);
   })
