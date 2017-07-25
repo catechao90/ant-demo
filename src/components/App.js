@@ -4,6 +4,7 @@ import { Layout, Menu, Breadcrumb } from 'antd'
 import Index from '@/components/Index'
 import { Route } from 'react-router-dom'
 import * as Public from '@/public'
+import test from '@/images/test.png';
 const { Header, Content, Footer } = Layout
 
 class App extends React.Component {
@@ -47,7 +48,7 @@ class App extends React.Component {
           <div style={{ background: '#fff', padding: 24, minHeight: 280 }}>
             <Link to="/index">index</Link>
             <Route path="/index" component={Index}/>
-            <img src="images/test.png" width="100" alt=""/>
+            <img src={test} width="100" alt=""/>
             <span className="icon-hint-08"></span>
             <span>{this.state.value}</span>
           </div>
