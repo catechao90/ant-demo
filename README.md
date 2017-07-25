@@ -18,3 +18,4 @@ $ yarn build
   - 封装了fetch方法
 
 mock data存放路径：
+![](http://catezhao1985.github.io/ant-demo1.png)
