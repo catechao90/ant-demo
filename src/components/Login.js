@@ -23,9 +23,8 @@ class NormalLoginForm extends React.Component {
     const { getFieldDecorator } = this.props.form
 
     const { redirectToReferrer } = this.state
-
-    if (redirectToReferrer) {
-      window.location.href="/";
+    if (redirectToReferrer) {      
+      window.location.href="/"
     }
 
     return (
