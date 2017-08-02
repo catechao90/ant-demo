@@ -1,4 +1,4 @@
-# 基于create-react-app产生的ant-design的项目
+# 基于create-react-app产生的ant-design的项目，支持e2e test（使用的是nightwatch）
 
 dev：
 ```
@@ -25,3 +25,19 @@ mock data存放路径：
 ant design theme 修改
 
 ![](http://catezhao1985.github.io/ant-demo2.png)
+
+
+use nightwatch 因为是win的机器，所以nightwatch只能安装成全局的
+
+```
+npm install -g nightwatch
+
+npm install selenium-standalone@latest -g
+selenium-standalone install
+selenium-standalone start
+
+npm run start
+
+npm run e2e
+
+```

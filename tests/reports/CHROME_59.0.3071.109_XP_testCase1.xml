@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="testCase1"
+    errors="0" failures="1" hostname="" id="" package="testCase1" skipped="0"
+    tests="1" time="15.29" timestamp="Wed, 02 Aug 2017 07:08:49 GMT">
+  
+    <testcase name="default e2e tests" classname="testCase1" time="15.29" assertions="1">  <failure message="Timed out while waiting for element &lt;#root&gt; to be present for 5000 milliseconds.">    at Object.default e2e tests (F:\work\react\antd-demo\tests\testCase1.js:8:8)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
